@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+  <div class="row">
+    <h2>{{currentUser.firstName}} {{currentUser.lastName}}</h2>
+    <div class="col-md-7 ">
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="box box-info">
+            <div class="box-body">
+              <div class="col-sm-8">
+                <br>
+              </div>
+              <div class="col-sm-6">
+                <h3>{{currentUser.specialty}}</h3>
+              </div>
+              <div class="clearfix"></div>
+              <hr style="margin:5px 0 5px 0;">
+
+              <div class="col-sm-5 col-xs-6 tital ">Firstname:</div><div class="col-sm-7 col-xs-6 ">{{currentUser.firstName}}</div>
+              <div class="clearfix"></div>
+              <div class="bot-border"></div>
+
+              <div class="col-sm-5 col-xs-6 tital ">Lastname:</div><div class="col-sm-7"> {{currentUser.lastName}}</div>
+              <div class="clearfix"></div>
+              <div class="bot-border"></div>
+
+              <div class="col-sm-5 col-xs-6 tital ">Email:</div><div class="col-sm-7">{{currentUser.email}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
